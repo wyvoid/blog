@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "forever start ./bin/www",
     "pro": "process.env.PORT=80 forever start ./bin/www",
-    "stop" "forever stop ./bin/www"
+    "stop": "forever stop ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
