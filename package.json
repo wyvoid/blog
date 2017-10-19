@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "forever start ./bin/www",
-    "pro": "process.env.PORT=80 forever start ./bin/www",
-    "stop": "forever stop ./bin/www"
+    "dev": "cross-env NODE_ENV=dev node ./bin/www",
+    "pro": "cross-env NODE_ENV=production node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
