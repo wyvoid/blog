@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=dev node ./bin/www",
-    "pro": "cross-env NODE_ENV=production node ./bin/www"
+    "pro": "cross-env NODE_ENV=production sudo node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.15.1",
